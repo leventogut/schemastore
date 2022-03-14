@@ -4153,6 +4153,35 @@
       "description": "Schema for unist syntax trees",
       "fileMatch": [],
       "url": "https://json.schemastore.org/unist.json"
+    },
+    {
+      "name": "DevSpace Configuration",
+      "description": "Schema for DevSpace configuration files. (https://devspace.sh/)",
+      "fileMatch": [
+        "devspace.yaml",
+        "devspace.yml",
+        "*.devspace.yaml",
+        "*.devspace.yml"
+      ],
+      "url": "https://raw.githubusercontent.com/loft-sh/devspace/master/schemas/devspace-schema-latest.json",
+      "versions": {
+        "v1alpha1": "https://raw.githubusercontent.com/loft-sh/devspace/master/schemas/devspace-schema-v1alpha1.json",
+        "v1alpha2": "https://raw.githubusercontent.com/loft-sh/devspace/master/schemas/devspace-schema-v1alpha2.json",
+        "v1alpha3": "https://raw.githubusercontent.com/loft-sh/devspace/master/schemas/devspace-schema-v1alpha3.json",
+        "v1alpha4": "https://raw.githubusercontent.com/loft-sh/devspace/master/schemas/devspace-schema-v1alpha4.json",
+        "v1beta1": "https://raw.githubusercontent.com/loft-sh/devspace/master/schemas/devspace-schema-v1beta1.json",
+        "v1beta2": "https://raw.githubusercontent.com/loft-sh/devspace/master/schemas/devspace-schema-v1beta2.json",
+        "v1beta3": "https://raw.githubusercontent.com/loft-sh/devspace/master/schemas/devspace-schema-v1beta3.json",
+        "v1beta4": "https://raw.githubusercontent.com/loft-sh/devspace/master/schemas/devspace-schema-v1beta4.json",
+        "v1beta5": "https://raw.githubusercontent.com/loft-sh/devspace/master/schemas/devspace-schema-v1beta5.json",
+        "v1beta6": "https://raw.githubusercontent.com/loft-sh/devspace/master/schemas/devspace-schema-v1beta6.json",
+        "v1beta7": "https://raw.githubusercontent.com/loft-sh/devspace/master/schemas/devspace-schema-v1beta7.json",
+        "v1beta8": "https://raw.githubusercontent.com/loft-sh/devspace/master/schemas/devspace-schema-v1beta8.json",
+        "v1beta9": "https://raw.githubusercontent.com/loft-sh/devspace/master/schemas/devspace-schema-v1beta9.json",
+        "v1beta10": "https://raw.githubusercontent.com/loft-sh/devspace/master/schemas/devspace-schema-v1beta10.json",
+        "v1beta11": "https://raw.githubusercontent.com/loft-sh/devspace/master/schemas/devspace-schema-latest.json",
+        "latest": "https://raw.githubusercontent.com/loft-sh/devspace/master/schemas/devspace-schema-latest.json"
+      }
     }
   ]
 }
